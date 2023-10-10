@@ -15,7 +15,7 @@ new MyFirstAppStack(app, "MyFirstAppStack", {
 
   /* Uncomment the next line if you know exactly what Account and Region you
    * want to deploy the stack to. */
-  // env: { account: "609104255814", region: "us-east-1" },
+  // env: { account: "78795014", region: "us-east-1" },
 
   /* For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html */
 });
