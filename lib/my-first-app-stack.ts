@@ -183,7 +183,7 @@ export class MyFirstAppStack extends cdk.Stack {
       .addMethod("GET", new cdk.aws_apigateway.LambdaIntegration(getArticle));
 
     /**
-     * Autheniticatio using Cognito
+     * Authenitication using Cognito
      */
     const userPool = new cdk.aws_cognito.UserPool(this, "myFirstUserPool", {
       selfSignUpEnabled: true,

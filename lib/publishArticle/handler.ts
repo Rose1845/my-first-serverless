@@ -6,7 +6,7 @@ const dynamoDBClient = new DynamoDBClient({});
 const s3Client = new S3Client({});
 
 export const handler = async (event: {
-  body: string;
+  body: '{"username": "test", "password": "test", "email": "roseodhiambo466@gmail.com" }';
 }): Promise<{ statusCode: number; body: string }> => {
   // parse the request body
   const { title, content, author } = JSON.parse(event.body) as {
